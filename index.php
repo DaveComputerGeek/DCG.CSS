@@ -27,11 +27,11 @@
 						<div class="dcg-jumbo">&nbsp;</div>
 						<div class="dcg-center dcg-padding dcg-padding-top-xlarge"><b>Get Started Fast!</b></div>
 						<div class="dcg-center dcg-padding dcg-padding-top-xlarge dcg-padding-bottom-xlarge">Link to DCG.CSS like any other CSS file.</div>
-<pre class="dcg-code">
+<pre class="dcg-code w3-highlight">
 &lt;link rel="stylesheet" type="text/css" href="https://www.davecomputergeek.scot/dcgcss/dcg.css"&gt;
 </pre>
 						<div class="dcg-center dcg-padding">For new projects by lazy developers like me, here is a full HTML example.</div>
-<pre class="dcg-code">
+<pre class="dcg-code w3-highlight">
 &lt;!DOCTYPE html&gt;
 &lt;html lang="en"&gt;
 	&lt;head&gt;
@@ -128,9 +128,21 @@
 &lt;/nav&gt;
 </pre>';
 					break;
+				case "forms":
+					echo '<form class="dcg-form">
+						<label for="name" class="dcg-small dcg-padding-top dcg-padding-bottom-none dcg-text-deep-red dcg-margin-none">Name:</label>
+						<input id="name" class="dcg-input dcg-border dcg-border-all dcg-border-deep-red dcg-margin-none">
+						
+						<select class="dcg-input">
+							<option>Test 1</option>
+						</select>
+					</form>';
+					break;
 			}
 			?>
 			</div>
 		</div>
+		
+		<script type="text/javascript" src="w3-syntax-highlighter.js"></script>
 	</body>
 </html>
