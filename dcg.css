@@ -80,6 +80,9 @@
 
 .dcg-image { max-width: 100% !important; }
 
+/* Container Class */
+.dcg-container { max-width: 1200px; margin: auto; }
+
 /* Colours */
 .dcg-no-bg { background-color: transparent !important; }
 

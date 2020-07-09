@@ -10,14 +10,16 @@
 	</head>
 	
 	<body class="dcg-sans-serif dcg-white dcg-margin-none">
-		<div class="dcg-container">
-			<nav class="dcg-nav dcg-nav-dark">
+		<nav class="dcg-nav dcg-nav-dark">
+			<div class="dcg-container">
 				<a class="dcg-nav-item dcg-lingrad-hover-alt-dark" href="/dcgcss"><b>DCG.CSS</b></a>
 				<a class="dcg-nav-item dcg-lingrad-hover-alt-dark" href="/dcgcss/typography">Typography</a>
 				<a class="dcg-nav-item dcg-lingrad-hover-alt-dark" href="/dcgcss/navigation">Navigation</a>
 				<a class="dcg-nav-item dcg-lingrad-hover-alt-dark" href="/dcgcss/forms">Forms</a>
-			</nav>
+			</div>
+		</nav>
 			
+		<div class="dcg-container">
 			<div class="dcg-padding">
 			<?php
 			switch( $page ) {
