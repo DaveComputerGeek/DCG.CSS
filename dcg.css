@@ -244,7 +244,7 @@
 /* Grey Blue color selected by my father */
 .dcg-grey-blue, .dcg-hover-grey-blue:hover { background-color: #8199b0 !important; }
 .dcg-text-grey-blue, .dcg-text-hover-grey-blue:hover, .dcg-link-grey-blue a, .dcg-link-hover-grey-blue a:hover { color: #8199b0 !important; }
-.dcg-border-grey-blue, .dcg-border-hover-grey-blue { border-color: #8199b0 !important; }
+.dcg-border-grey-blue, .dcg-border-hover-grey-blue:hover { border-color: #8199b0 !important; }
 
 /* Purple color selected by Paula Whitefield (@PaulaWhitefield) */
 .dcg-purple, .dcg-hover-purple:hover { background-color: #9370DB !important; }
