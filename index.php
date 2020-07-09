@@ -6,7 +6,7 @@
 		
 		<title>DCG.CSS</title>
 		
-		<link rel="stylesheet" type="text/css" href="dcg.css?version=<?php filemtime('dcg.css'); ?>">
+		<link rel="stylesheet" type="text/css" href="dcg.css?version=<?php echo filemtime('dcg.css'); ?>">
 	</head>
 	
 	<body class="dcg-sans-serif dcg-white dcg-margin-none">
